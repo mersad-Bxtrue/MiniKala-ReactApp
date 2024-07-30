@@ -15,7 +15,7 @@
 🔆 MiniKala is my first React project, in which I focused on State Management in adding products to the shopping cart, increasing or decreasing the number of products, and as a result, updating simultaneously with changes in other components in a completely dynamic manner. 😍
 
 ## Application Demo
-<img src='./public/image/demo.png' alt='Forkify preview' >
+<img src='./public/image/demo.png' alt='MiniKala preview' >
 
 ## Features
 
