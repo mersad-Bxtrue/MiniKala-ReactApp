@@ -1,0 +1,82 @@
+@import url(_navbar.css);
+@import url(_products.css);
+@import url(_products-item.css);
+@import url(_shopping-cart-details.css);
+@import url(_shopping-cart-item.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "dana";
+
+  @font-face {
+    font-family: "dana";
+    src: url("../font/dana-medium.woff") format("woff");
+    src: url("../font/dana-medium.woff2") format("woff2");
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #424750;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+body {
+  font-family: "dana";
+  color: #424750;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5px;
+  --sb-track-color: #e4e4e4;
+  --sb-thumb-color: #ef4056;
+  --sb-size: 12px;
+}
+
+.app-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}

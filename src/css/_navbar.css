@@ -1,0 +1,81 @@
+.navbar-section {
+    height: 60px;
+    background-color: #ececec;
+    margin: 20px auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 32px;
+    color: #ef4056;
+    font-weight: 700;
+    /* line-height: 7px; */
+}
+
+.account-access {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.shopping-cart {
+    display: flex;
+    position: relative;
+    padding: 4px;
+    border-radius: 50%;
+    transition: alls ease-in-out;
+}
+
+.shopping-cart:focus,
+.shopping-cart:hover {
+    background-color: #fefefe;
+}
+
+.number-of_products {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ef4056;
+    color: #efefef;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.menu-item a,
+.menu-item a svg {
+    transition: alls ease-in-out;
+}
+
+.menu-item:hover a,
+.menu-item:hover a svg {
+    fill: #ef4056;
+    color: #ef4056;
+}
+
+.login-signin {
+    background-color: #fefefe;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: alls ease-in-out;
+}
+
+.login-signin:hover {
+    background-color: #ef4056;
+    color: #efefef;
+}
