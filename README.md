@@ -63,5 +63,5 @@
 
 ### Final word
 
-- I built this project as my first React project with my current knowledge in 8 hours and faced various challenges, each one was instructive for me, and i trying to understand the working process of JSX, props, state, component and hooks.
+- This project is my first React project which I built in 8 hours with the knowledge I have so far. Along the way, I faced various challenges, each of which taught me something new. I also tried to better understand how JSX, props, state, components and hooks work.
 
