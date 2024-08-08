@@ -7,6 +7,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Webpack](https://img.shields.io/badge/Webpack-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -15,6 +16,7 @@
 🔆 MiniKala is my first React project, in which I focused on State Management in adding products to the shopping cart, increasing or decreasing the number of products, and as a result, updating simultaneously with changes in other components in a completely dynamic manner. 😍
 
 ## Application Demo
+- Online link : https://minikala-react-app.vercel.app/
 <img src='./public/image/Demo.png' alt='MiniKala preview' >
 
 ## Features
